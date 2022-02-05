@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nikeaxentiev.LoginActivity">
+
+    <ImageView
+        android:layout_width="72dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="175dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/img_4" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ЕДИНЫЙ АККАУНТ ДЛЯ\nЛЮБОЙ СРЕДЫ NIKE"
+        android:gravity="center"
+        android:layout_marginTop="250dp"
+        android:textColor="#ee000000"
+        android:textSize="24dp"
+        />
+
+    <EditText
+        android:id="@+id/txt1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/borderededittext"
+        android:hint="Адрес электронной почты"
+        android:paddingStart="20dp" />
+
+    <EditText
+        android:id="@+id/txt2"
+        android:layout_width="match_parent"
+        android:background="@drawable/borderededittext"
+        android:paddingStart="20dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:hint="Пароль"
+        android:layout_marginTop="410dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/roundedbuttonblack2"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="470dp"
+        android:layout_marginRight="30dp"
+        android:onClick="checkData"
+        android:text="Войти"/>
+
+</RelativeLayout>
